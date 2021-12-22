@@ -26,7 +26,6 @@ app.get("/api/getquestion/:questionid", function (req, res) {
   });
 });
 
-
 app.get("/api/getquestions", function (req, res) {
   con.connect(function (err) {
     if (err) throw err;
